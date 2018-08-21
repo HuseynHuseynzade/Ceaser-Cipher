@@ -27,17 +27,17 @@ namespace Ceasar
             if (textBox2.Text != null)
             {
                 textBox2.Clear();
-                foreach(char eded in simvol)
+                foreach(char herf in simvol)
                 {
-                    textBox2.Text += Convert.ToChar(eded + 7).ToString();
+                    textBox2.Text += Convert.ToChar(herf + 7).ToString();
                 }
 
             }
             else
             {
-                foreach (char eded in simvol)
+                foreach (char herf in simvol)
                 {
-                    textBox2.Text += Convert.ToChar(eded + 7).ToString();
+                    textBox2.Text += Convert.ToChar(herf + 7).ToString();
                 }
             }
 
@@ -54,17 +54,17 @@ namespace Ceasar
             if (textBox1.Text != null)
             {
                 textBox1.Clear();
-                foreach (char eded2 in simvol2)
+                foreach (char herf2 in simvol2)
                 {
-                    textBox1.Text += Convert.ToChar(eded2 - 7).ToString();
+                    textBox1.Text += Convert.ToChar(herf2 - 7).ToString();
                 }
 
             }
             else
             {
-                foreach (char eded2 in simvol2)
+                foreach (char herf2 in simvol2)
                 {
-                    textBox1.Text += Convert.ToChar(eded2 - 5).ToString();
+                    textBox1.Text += Convert.ToChar(herf2 - 7).ToString();
                 }
             }
         }
